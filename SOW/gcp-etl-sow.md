@@ -666,13 +666,3 @@ One more thing, since you mentioned feeling behind: five years of Spark, SQL, Py
 
 Naming what you chose *not* to build, and why, is part of a good design document. Candidates: Iceberg/BigLake tables for open-format storage; a feature store and a demand-forecasting model on Vertex AI; a semantic layer; data mesh domain separation; VPC Service Controls; CMEK; real-time alerting on anomaly detection; multi-region DR; data sharing via Analytics Hub.
 
----
-
-## 19. Immediate next steps
-
-1. Confirm this scope and scenario, or tell me what to change.
-2. I produce the Phase 0 build guide: exact Terraform, the GitHub Actions workflows, the Workload Identity Federation setup, and the billing kill switch — step by step, with the reasoning at each step.
-3. You execute Phase 0 and we verify the acceptance test together.
-4. We proceed phase by phase.
-
-Use AI tooling to write the code — that is a normal part of modern engineering. But read every line it produces and make sure you can explain each design choice without it, because that is what gets tested in the room.
